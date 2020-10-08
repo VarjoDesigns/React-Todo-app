@@ -1,0 +1,26 @@
+
+
+node_modules            // Sisältää kaikki kirjastot
+    react               // React kirjasto
+
+src/                    // Sisältää sovelluksen lähdekoodin
+    app.js              // Sisältää React komponentin, joka määrittelee miltä etusivu näyttää
+        import          // Haetaan paketteja käytettäväksi
+            React       // React irjasto, joka löytyy Node moduuleista
+        export default  // Sovellus on aina exportoitava, jotta jokin muu kompoonentti voi importoida sen (jotta komponenttia voi käyttää muualla)
+
+
+
+
+
+
+Reactista yleensä
+
+
+
+Props
+
+
+React Dataflow
+    Aina yksisuuntainen, Parent komponentilta child komponentille
+    
